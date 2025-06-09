@@ -34,8 +34,8 @@ A threshold (0.55) was used to classify predictions into:
 ## Problems encountered
 - **Noise** - The data is too noisy, which is expected considering it is a stock market. A logistic model is generally bad at training with noisy data.
 - **Simplicity** - The model is too simple. There is no complexity to accommodate for sudden changes in the data. 
-- **IMPORTANT**: The stock market grows based on human sentiment, company growth, news sentiment, macroeconomics, earnings, etc. The model does not have such data. It is very expensive and impractical to retrieve this data, over the last 2 years. 
-- **Inflation** - We do not account for inflation. The model might think that the Open/Close value (even though normalized) might be more for the year 2025 than 2024.
+- **IMPORTANT**: The stock market grows based on human sentiment, company growth, news sentiment, macroeconomics, earnings, etc. The model does not have such data. It is very expensive and impractical to retrieve this data, over the last `N` years. 
+- **Inflation** - Even with normalization, relative value differences across years may still impact predictions.
 - **Bias** - The stock market has an overall increase over the last 2 years, so the model is based towards predicting `1`.
 
 

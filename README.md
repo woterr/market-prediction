@@ -60,7 +60,7 @@ The problem of not having high quality data still persists. However, the model w
 
 We cannot expect an ML model to predict something you cannot. The world is changing rapidly. Any global crisis can take place at any point in time, which directly affects the stock market.
 
-Take COVID-19 for example, regardless of how well a given company was doing, all stock markets crashing due to this global pandemic, and an ML model could obviously not predict that.
+Take COVID-19 for example, regardless of how well a given company was doing, all stock markets crashed due to this global pandemic, and an ML model could obviously not predict that.
 
 Problems like this require time series models like LSTM or Transformers. However, the model would still not predict very well. This problem statement is constructed in a way that it cannot have a real world solution. 
 
